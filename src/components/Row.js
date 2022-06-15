@@ -12,7 +12,7 @@ export default function Row({ title, fetchUrl, isLargeRow }) {
       const request = await axios.get(fetchUrl);
       //console.log(request.data.results);
       setMovies(request.data.results);
-      console.log(setMovies)
+     // console.log(setMovies)
       return request;
     }
     fetchData();

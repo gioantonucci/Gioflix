@@ -24,7 +24,9 @@
   max-width: 360px;
   height: 80px;
 }
-
+.banner {
+  background-image: "https://netflixyseries.com/wp-content/uploads/2021/08/stranger-things-4-season-4-netflix-1237547-1280x0-1.jpeg?is-pending-load=1";
+}
 .banner_btn {
   cursor: pointer;
   color: white;
