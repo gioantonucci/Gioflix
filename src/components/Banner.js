@@ -31,10 +31,10 @@ function Banner() {
           backgroundImage: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
           backdropPosition: "center center",
       }
-      } > {/* Because is in the top */}
-          <div className= 'banner_contents'>
-          
-              <h1 className="banner_title"> {movie?.title || movie?.name || movie?.original_name}  </h1>
+      } > <div className= 'banner_contents'>
+              <div className="banner_title"> 
+              {"Fight Club"}
+              </div>
                   <div className='banner_button'>
                
                       <button className='banner_btn'>Play</button>
@@ -42,7 +42,9 @@ function Banner() {
                   </div>
               <h1 className = 'banner_description'>
               
-                 {truncate(movie?.overview, 200)}
+                
+                 {truncate("A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.", 200)}
+                 
                 
               </h1>
             
