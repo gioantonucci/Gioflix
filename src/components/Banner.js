@@ -36,18 +36,14 @@ function Banner() {
               <div className="banner_title"> 
               {"Fight Club"}
               </div>
+              <h1 className = 'banner_description'>
+                 {truncate("A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.", 200)}
+              </h1>
+            
                   <div className='banner_button'>
-               
                       <button className='banner_btn'>Play</button>
                      
                   </div>
-              <h1 className = 'banner_description'>
-              
-                
-                 {truncate("A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground \"fight clubs\" forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.", 200)}
-                 
-                
-              </h1>
             
           </div>
           <div className="banner--fadeBottom" />
