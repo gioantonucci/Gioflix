@@ -25,13 +25,14 @@ function Banner() {
 
   return (
     
-      <header className= 'banner'
+          <header className= 'banner'
       style= {{
           backgroundSize: "cover",
-          backgroundImage: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
+          backgroundImage: `url("https://image.tmdb.org/t/p/original/rr7E0NoGKxvbkb89eR1GwfoYjpA.jpg")`,
           backdropPosition: "center center",
       }
-      } > <div className= 'banner_contents'>
+      } >
+          <div className= 'banner_contents'>
               <div className="banner_title"> 
               {"Fight Club"}
               </div>
